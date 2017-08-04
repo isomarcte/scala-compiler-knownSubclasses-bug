@@ -71,7 +71,7 @@ If the file in which `T` is defined has a lexicographical ordering which places 
 
 # Running The Example #
 
-I wasn't sure how to get `sbt` to continue build other cross builds after one of them fails, so a file `build.sh` is provided which will build all these projects for Scala versions `2.11.9`-`2.13.0-M2`. Note, the bug still appears to be present _before_ `2.11.9`, but the code which raises the error was only added in `2.11.9`. Nevertheless, you can observe the bug by noticing the known sub-classes of printed when the macro is executed.
+I wasn't sure how to get `sbt` to continue building other cross builds after one of them fails, so a file `build.sh` is provided which will build all these projects for Scala versions `2.11.9`-`2.13.0-M2`. Note, the bug still appears to be present _before_ `2.11.9`, but the code which raises the error was only added in `2.11.9`. Nevertheless, you can observe the bug by noticing the known sub-classes of printed when the macro is executed.
 
 ```bash
 $ bash build.sh
