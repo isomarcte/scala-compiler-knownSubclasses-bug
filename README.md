@@ -10,7 +10,7 @@ The general issue has been documented before as part of [SI-7046][SI-7046]. Alth
 
 Here is what is happening.
 
-Consider some `sealed` type `T` that defines all sub-classes in the companion object for the type and some type-class `F`.
+Consider some `sealed` type `T` that defines all sub-classes in the companion object for the type.
 
 ```scala
 sealed trait T
