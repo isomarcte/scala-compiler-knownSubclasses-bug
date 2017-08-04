@@ -28,5 +28,7 @@ object UsesMacro {
   def callMacro[T : Codec]: Unit = ()
 
   /* Invoke [[AAA_UsesMacro#callMacro]] */
-  callMacro[ADTScodecShapelessWorks]
+  def derp(): Unit = {
+    callMacro[ADTScodecShapelessWorks]
+  }
 }

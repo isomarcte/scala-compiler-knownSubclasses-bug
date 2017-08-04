@@ -4,7 +4,7 @@ import scodec.Codec
 sealed trait ADTScodecShapelessWorks
 
 /** Contains all constructors for the type `ADT`. */
-object ADTScodecShapeless {
+object ADTScodecShapelessWorks {
 
   /** A trivial constructor. */
   final case class ADTScodecShapelessWorksConstructor() extends ADTScodecShapelessWorks
@@ -18,5 +18,8 @@ object ADTScodecShapeless {
     * an instance defined on the type's companion object. I am unsure why this
     * is the case.
     */
-  implicit def codec: Codec[ADTScodecShapelessWorks] = null
+  implicit def codec: Codec[ADTScodecShapelessWorks] = {
+    println("DERP!")
+    null
+  }
 }

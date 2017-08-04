@@ -18,5 +18,8 @@ object ADTScodecShapeless {
     * an instance defined on the type's companion object. I am unsure why this
     * is the case.
     */
-  implicit def codec: Codec[ADTScodecShapeless] = null
+  implicit def codec: Codec[ADTScodecShapeless] = {
+    println("DERP!")
+    null
+  }
 }
