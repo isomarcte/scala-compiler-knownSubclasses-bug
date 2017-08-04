@@ -1,0 +1,9 @@
+# Scala Build Tool (SBT) #
+
+## Build ##
+target/
+
+# Ensime #
+
+/.ensime
+/.ensime_cache
