@@ -77,6 +77,13 @@ I wasn't sure how to get `sbt` to continue building other cross builds after one
 $ bash build.sh
 ```
 
+You will see several instances of the error like so,
+
+```scala
+[error] knownDirectSubclasses of ADT observed before subclass ADTConstructor registered
+Known Subclasses for ADTWorks Set(class ADTWorksConstructor)
+```
+
 [knownDirectSubclasses]: https://github.com/scala/scala/blob/v2.12.3/src/reflect/scala/reflect/internal/Symbols.scala#L126 "knownDirectSubclasses"
 
 [SI-7046]: https://issues.scala-lang.org/browse/SI-7046 "SI-7046"
