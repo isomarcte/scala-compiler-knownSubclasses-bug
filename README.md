@@ -79,7 +79,7 @@ $ bash build.sh
 
 You will see several instances of the error like so,
 
-```scala
+```
 [error] knownDirectSubclasses of ADT observed before subclass ADTConstructor registered
 Known Subclasses for ADTWorks Set(class ADTWorksConstructor)
 ```
